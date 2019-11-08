@@ -650,11 +650,15 @@ body {
   text-align: center;
 }
 
-.wrapper_Home .content #skills .one, .wrapper_Home .content #skills .two, .wrapper_Home .content #skills .three {
+.wrapper_Home .content #skills .one,
+.wrapper_Home .content #skills .two,
+.wrapper_Home .content #skills .three {
   margin: 2rem 2rem 0 2rem;
 }
 
-.wrapper_Home .content #skills .four, .wrapper_Home .content #skills .five, .wrapper_Home .content #skills .six {
+.wrapper_Home .content #skills .four,
+.wrapper_Home .content #skills .five,
+.wrapper_Home .content #skills .six {
   margin: 0 2rem 2rem 2rem;
 }
 
@@ -748,5 +752,51 @@ body {
 .wrapper_Home .content::-webkit-scrollbar {
   width: 0 !important;
   height: 0 !important;
+}
+
+@media (max-width: 767px) {
+  .wrapper_Home .content #about #one {
+    border-bottom: 1px dotted #191919;
+    border-left: none;
+    width: 95%;
+    text-align: left;
+    float: left;
+  }
+  .wrapper_Home .content #about #two {
+    border-bottom: 1px dotted #191919;
+    border-right: none;
+    width: 95%;
+    text-align: right;
+    float: right;
+  }
+  .wrapper_Home .content #about #three {
+    border-bottom: 1px dotted #191919;
+    border-left: none;
+    width: 95%;
+    text-align: left;
+    float: left;
+  }
+  .wrapper_Home .content #about #four {
+    width: 95%;
+    border-right: none;
+    text-align: right;
+    float: right;
+  }
+  .wrapper_Home .content #about h3 {
+    font-size: 10%;
+    margin: 10%;
+  }
+  .wrapper_Home .content #about .black {
+    font-size: 0.9rem;
+    margin: 1rem 1rem 0 1rem;
+    font-weight: 400;
+    color: #191919;
+  }
+  .wrapper_Home .content #about .pink {
+    font-size: 1rem;
+    margin: 0 1rem 1rem 1rem;
+    font-weight: 300;
+    color: #bfacaa;
+  }
 }
 /*# sourceMappingURL=style.css.map */
