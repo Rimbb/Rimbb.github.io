@@ -755,6 +755,9 @@ body {
 }
 
 @media (max-width: 767px) {
+  .wrapper_Home .rimbaud {
+    width: 75px;
+  }
   .wrapper_Home .content #about #one {
     border-bottom: 1px dotted #191919;
     border-left: none;

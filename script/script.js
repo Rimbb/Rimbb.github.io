@@ -64,14 +64,27 @@ content.addEventListener("scroll", () => {
         arrowup.addEventListener("click", () => {
           hello.scrollIntoView({ behavior: "smooth" });
         });
-      }
-      imghey.onmouseout = function() {
-        imghey.src = "./assets/avatar/avatarheybefore.png";
-      };
+        imghey.onmouseout = function() {
+          imghey.src = "./assets/avatar/avatarheybefore.png";
+        };
 
-      imghey.onmouseover = function() {
-        imghey.src = "./assets/avatar/avatarheyafter.png";
-      };
+        imghey.onmouseover = function() {
+          imghey.src = "./assets/avatar/avatarheyafter.png";
+        };
+
+        setTimeout(() => {
+          imghey.src = "./assets/avatar/avatarheyafter.png";
+        }, 2000);
+        setTimeout(() => {
+          imghey.src = "./assets/avatar/avatarheybefore.png";
+        }, 2500);
+        setTimeout(() => {
+          imghey.src = "./assets/avatar/avatarheyafter.png";
+        }, 3000);
+        setTimeout(() => {
+          imghey.src = "./assets/avatar/avatarheybefore.png";
+        }, 3500);
+      }
     },
     { threshold: [0.5] }
   );
@@ -108,6 +121,12 @@ content.addEventListener("scroll", () => {
         arrowup.addEventListener("click", () => {
           skills.scrollIntoView({ behavior: "smooth" });
         });
+        setTimeout(() => {
+          imgwall.src = "./assets/avatar/avatarwallafter.png";
+        }, 2000);
+        setTimeout(() => {
+          imgwall.src = "./assets/avatar/avatarwallbefore.png";
+        }, 2500);
       }
     },
     { threshold: [0.5] }
