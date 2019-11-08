@@ -10,28 +10,9 @@ const about = document.querySelector("#about");
 const skills = document.querySelector("#skills");
 const contact = document.querySelector("#contact");
 
-const texts = ["WELCOME", "GET STARTED"];
-let count = 0;
-
 svg.style.animation = "svg_Reveal 2s 0.5s forwards";
 
 arrowup.style.display = "none";
-
-setTimeout(() => {
-  svg.style.animation = "svg_phase2 7.5s infinite";
-  setTimeout(() => {
-    text.innerHTML = "GET STARTED";
-    setInterval(() => {
-      text.innerHTML = texts[count];
-      count = (count + 1) % texts.length;
-    }, 7500);
-  }, 3750);
-}, 2500);
-
-svg.addEventListener("mouseover", () => {
-  svg.style.animation = "none";
-  svg.style.opacity = "1";
-});
 
 svg.addEventListener("click", () => {
   document.querySelector(".wrapper_Welcome").style.display = "none";
