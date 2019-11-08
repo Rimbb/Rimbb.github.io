@@ -480,6 +480,10 @@ body {
             text-decoration: underline;
           }
 
+          #french2 {
+              display: none;
+          }
+
           img {
             width: 2.5rem;
             height: 2.5rem;
@@ -509,10 +513,10 @@ body {
     height: 0 !important;
   }
 
-  @media (max-width: 767px) {
-      .rimbaud {
-        width: 75px;
-      }
+  @media (max-width: 904px) {
+    .rimbaud {
+      width: 100px;
+    }
     .content {
       #about {
         #one {
@@ -563,6 +567,52 @@ body {
           margin: 0 1rem 1rem 1rem;
           font-weight: 300;
           color: #bfacaa;
+        }
+      }
+      #skills {
+        div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 30%;
+          height: 20%;
+
+          h3 {
+            display: none;
+          }
+          p {
+            font-size: 12.5px;
+          }
+        }
+        .one {
+            margin: 2rem 2rem 0 2rem;
+        }
+        .two {
+          margin-bottom: 2rem 2rem 25px 2rem;
+        }
+
+        .three {
+            margin: 0 2rem 0 2rem; 
+        }
+        .four {
+          margin-bottom: 0 2rem 25px 2rem;
+        }
+        .five,
+        .six {
+          margin: 0 2rem 2rem 2rem;
+        }
+      }
+      #contact {
+        #french {
+            display: none;
+        }
+        #french2 {
+            margin-top: 0.5rem;
+            font-size: 12.5px;
+            display: flex;
+            align-self: center;
+            color: #191919;
+            text-decoration: underline;
         }
       }
     }

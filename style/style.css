@@ -715,6 +715,10 @@ body {
   text-decoration: underline;
 }
 
+.wrapper_Home .content #contact .wrapping .divsolo #french2 {
+  display: none;
+}
+
 .wrapper_Home .content #contact .wrapping .divsolo img {
   width: 2.5rem;
   height: 2.5rem;
@@ -754,9 +758,9 @@ body {
   height: 0 !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 904px) {
   .wrapper_Home .rimbaud {
-    width: 75px;
+    width: 100px;
   }
   .wrapper_Home .content #about #one {
     border-bottom: 1px dotted #191919;
@@ -800,6 +804,55 @@ body {
     margin: 0 1rem 1rem 1rem;
     font-weight: 300;
     color: #bfacaa;
+  }
+  .wrapper_Home .content #skills div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 30%;
+    height: 20%;
+  }
+  .wrapper_Home .content #skills div h3 {
+    display: none;
+  }
+  .wrapper_Home .content #skills div p {
+    font-size: 12.5px;
+  }
+  .wrapper_Home .content #skills .one {
+    margin: 2rem 2rem 0 2rem;
+  }
+  .wrapper_Home .content #skills .two {
+    margin-bottom: 2rem 2rem 25px 2rem;
+  }
+  .wrapper_Home .content #skills .three {
+    margin: 0 2rem 0 2rem;
+  }
+  .wrapper_Home .content #skills .four {
+    margin-bottom: 0 2rem 25px 2rem;
+  }
+  .wrapper_Home .content #skills .five,
+  .wrapper_Home .content #skills .six {
+    margin: 0 2rem 2rem 2rem;
+  }
+  .wrapper_Home .content #contact #french {
+    display: none;
+  }
+  .wrapper_Home .content #contact #french2 {
+    margin-top: 0.5rem;
+    font-size: 12.5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        align-self: center;
+    color: #191919;
+    text-decoration: underline;
   }
 }
 /*# sourceMappingURL=style.css.map */
