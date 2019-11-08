@@ -24,11 +24,11 @@ svg.addEventListener("click", () => {
 });
 
 imghey.onmouseout = function() {
-  imghey.src = "./assets/me/mehey2.png";
+  imghey.src = "./assets/avatar/avatarheybefore.png";
 };
 
 imghey.onmouseover = function() {
-  imghey.src = "./assets/me/mehey1.png";
+  imghey.src = "./assets/avatar/avatarheyafter.png";
 };
 
 arrow.addEventListener("click", () => {
@@ -66,11 +66,11 @@ content.addEventListener("scroll", () => {
         });
       }
       imghey.onmouseout = function() {
-        imghey.src = "./assets/me/mehey2.png";
+        imghey.src = "./assets/avatar/avatarheybefore.png";
       };
 
       imghey.onmouseover = function() {
-        imghey.src = "./assets/me/mehey1.png";
+        imghey.src = "./assets/avatar/avatarheyafter.png";
       };
     },
     { threshold: [0.5] }
